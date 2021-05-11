@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: 	hsl(240, 52%, 86%);
+}
+.title{
+  text-align: center;
+  padding: 30px;
+  font-size: 40px;
+  color: 	hsl(18, 14%, 37%);
+}
+#title{
+  font-size: 30px;
+  padding: 10px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(266, 29%, 66%);
+  box-shadow: 0px 4px 6px 0px #9F838C;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.box{
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 5px;  
+}
+.box:hover{
+  border: 2px solid black;
+}
+#red{
+  background-color: red;
+}
+#yellow{
+  background-color: yellow;
+}
+#blue{
+  background-color: blue;
+}
+#green{
+  background-color: green;
+}
+.pressed{
+  background-color: gainsboro !important;
+}
+.game-over{
+  background-color: hsl(18, 14%, 37%);
+}
+.footer{
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+  color: 	hsl(18, 14%, 37%);
+}
